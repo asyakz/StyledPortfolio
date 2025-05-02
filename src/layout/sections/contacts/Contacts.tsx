@@ -42,9 +42,9 @@ export const Contacts: React.FC<ContactsPropsType> = (props: ContactsPropsType) 
         <SectionTitle>Contact me</SectionTitle>
         <S.Form ref={form} onSubmit={sendEmail}>
           <StyledLabel for={"username"}>Name</StyledLabel>
-          <S.Field required placeholder={"Name"} id="username" name={'user_name'}/>
+          <S.Field required placeholder={"Name"} id="username" name={'user_name'} type="text"/>
           <StyledLabel for={"email"}>Email</StyledLabel>
-          <S.Field required placeholder={"Email"} id="email" name={'email'}/>
+          <S.Field required placeholder={"Email"} id="email" name={'email'} type="email"/>
           <StyledLabel for="message">Message</StyledLabel>
           <S.Field required placeholder={"Message"} as={"textarea"} id="message" name={'message'}/>
           <FlexWrapper justify="end">

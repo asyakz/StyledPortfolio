@@ -17,7 +17,7 @@ const data = [
     id: 2, title: "Memory Game", text: "The Memory Game was created by me on the basis of vanilla JavaScript", link: "https://asyakz.github.io/MemoryGameJS/", img: pro2Img
   }, 
   {
-    id: 3, title: "High Pass", text: "This project of the HighPass photo studio was created as part of the training of the online school Skillbox", link: "https://github.com/asyakz/HighPass", img: pro3Img
+    id: 3, title: "High Pass", text: "This project of the HighPass photo studio was created as part of the training of the online school Skillbox", link: "https://asyakz.github.io/HighPass/", img: pro3Img
   }
 ]
 

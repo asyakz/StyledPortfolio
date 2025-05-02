@@ -22,11 +22,9 @@ const responsive = {
 
 export const Slider: React.FC<SliderPropsType> = (props: SliderPropsType) => (
   <S.Slider>
-    <S.TextWrapper>
-      <S.TextSlider>
-        {props.sliderMainText}
-      </S.TextSlider>
-    </S.TextWrapper>
+    <S.TextSlider>
+      {props.sliderMainText}
+    </S.TextSlider>
     <AliceCarousel
       disableButtonsControls
       mouseTracking

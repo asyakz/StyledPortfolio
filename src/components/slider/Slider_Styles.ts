@@ -15,12 +15,6 @@ const Slider = styled.div`
 const TextSlider = styled.p`
   margin-bottom: 20px;
   max-width: 80%;
-`
-
-const TextWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  min-height: 150px;
   padding-top: 20px;
   padding-bottom: 20px;
 `
@@ -67,6 +61,5 @@ export const S ={
   Image,
   Text,
   SlideWrapper,
-  Link,
-  TextWrapper
+  Link
 }

@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import { theme } from "../../styles/Theme";
+import { animateScroll as scroll } from "react-scroll";
 
 export const Logo = () => {
   return (
     <div>
-      <a href="#">
+      <a onClick={()=>{scroll.scrollToTop()}}>
         <StyledLogo>Anastasia Kazantseva</StyledLogo>
       </a>
     </div>

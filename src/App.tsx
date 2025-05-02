@@ -8,6 +8,7 @@ import { Contacts } from './layout/sections/contacts/Contacts';
 import { Footer } from './layout/footer/Footer';
 import { Projects } from './layout/sections/projects/Projects';
 import { Particle } from './components/particle/Particle';
+import { GoTopBtn } from './components/goTopBtn/GoTopBtn';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AboutMe />
       <Contacts />
       <Footer />
+      <GoTopBtn />
     </div>
   );
 }

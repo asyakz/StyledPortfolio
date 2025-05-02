@@ -10,6 +10,8 @@ const Header = styled.header`
   min-height: 56px;
   height: 56px;
   padding-bottom: 0;
+  background-color: transparent;
+  transition: background-color .4s ease;
 
   @media ${theme.media.M} {
     padding-top: 15px;

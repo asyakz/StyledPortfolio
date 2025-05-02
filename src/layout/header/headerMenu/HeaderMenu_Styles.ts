@@ -32,12 +32,14 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
   bottom: 0;
   z-index: 800;
   background-color: ${theme.colors.mobileBgcolor};
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: transform .8s ease-in-out;
 
   ${props => props.isOpen && css<{ isOpen: boolean }>`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  transform: translateY(0);
   `}
 
   ul {
@@ -45,12 +47,11 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 70px;
 
     li a {
       color: ${theme.colors.white};
       font-size: 44px;
-      line-height: 74px;
       transition: color .4s ease;
 
       &:hover, &.active {
